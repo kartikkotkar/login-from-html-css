@@ -15,8 +15,8 @@
   .login_form_container{
       position: relative;
       width: 360px;
-      height: 470px;
-      max-width: 360px;
+      height: 400px;
+      max-width: 320px;
       max-height: 460px;
       background: rgb(103, 7, 12);
       border-radius: 100px ;
@@ -25,7 +25,7 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      margin-top: 20px;
+      margin-top: 50px;
   }
   .login_form_container::before{
       
@@ -57,11 +57,10 @@
   }
   .login_form{
       position: absolute;
-      content: '';
       background-color: #0c1022;
       border-radius: 50px 5px;
       inset: 5px;
-      padding: 50px 40px;
+      padding: 30px 40px;
       z-index: 10;
       color: #00ccff;
   
@@ -104,10 +103,10 @@
   }
   #login_button{
       position: relative;
-      width: 300px;
-      height: 40px;
+      width: 250px;
+      height: 30px;
       transition: 1s;
-      margin-top: 70px;
+      margin-top: 50px;
   
   
   }
